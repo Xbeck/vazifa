@@ -97,7 +97,3 @@ pytest
 Bu templateni asosiy qismi https://github.com/seapagan/fastapi-template.git ga tegishli. Ushbu template uchun takliflar yoki xatolar bo'lsa bemalol aloqaga chiqing.
 
 Credit: https://github.com/seapagan/fastapi-template.git
-
-
-## Modullar
-pip install GeoAlchemy2
