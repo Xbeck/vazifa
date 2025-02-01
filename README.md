@@ -1,13 +1,12 @@
 
-# FastAPI Temaplte
+# FastAPI proekt
 
 ## Qamrab oladi:
-
 - User Modellar
 - Authentication | Authorization
 - Unittestlar
 - JWT
-- PostgresSQL(SQLAlchemy|Alembic)
+- PostgresSQL(SQLAlchemy | Alembic)
 
 ## Avzalliklari
 - Foydalanish uchun qulay
@@ -16,22 +15,6 @@
 - Tartibli
 
 ## PostgreSQL database yaratish | Docker bilan.
-1. Operatsion tizimingizga docker yoki dokcer-desktop daturini o'rnating.
-2. Ungi ishga tushurgandan so'ng postgres imagini yuklang.
-```bash
-docker pull postgres
-```
-3. Shu postgres imagedan container yarating:
-```bash
-docker run --name <CONTAINER_NAME> -p 5432:5432 -e POSTGRES_PASSWORD=<PASSWORD> -e POSTGRES_USER=<USER> -d postgres
-```
-4. Ishga tushgan postgres ichida database yarating(haqiqiy va test uchun):
-```bash
-docker exec -ti <CONTAINER_NAME> createdb -U <USER> <DB_NAME>
-
-docker exec -ti <CONTAINER_NAME> createdb -U <USER> <TEST_DB_NAME>
-```
-
 Agar siz hammasini to'g'ri qilgan bo'lsangiz sizda quyidagi ma'lumotlar bor:
 - DB_USER=<USER>
 - DP_PASSWORD=<PASSWORD>
@@ -48,7 +31,6 @@ Agar siz hammasini to'g'ri qilgan bo'lsangiz sizda quyidagi ma'lumotlar bor:
 Agar iloji bo'lsa postgres uchun userni ham yangi yaratish tafsiya qilinadi.
 
 ## Loyihani ishga tushurish:
-
 1. Kerakli papkaga boring va kodni githubdan yuklab oling:
 ```bash
 git clone https://github.com/...
